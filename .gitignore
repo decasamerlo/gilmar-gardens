@@ -1,0 +1,38 @@
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+android/
+ios/
+*.apk
+*.aab
+npm-debug.*
+yarn-error.*
+
+# Secrets (Supabase URL and keys go in .env, never in git)
+.env
+.env*.local
+
+# Editors and OS
+.DS_Store
+.vscode/
+
+# LibreOffice lock files
+.~lock.*#
+
+# Python
+__pycache__/
+
+# Expo (from the create-expo-app template)
+expo-env.d.ts
+.metro-health-check*
+*.tsbuildinfo
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
